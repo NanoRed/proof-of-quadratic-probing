@@ -95,6 +95,18 @@
 &nbsp;![image](https://user-images.githubusercontent.com/23076538/145687125-56a02ae5-6134-486b-a99d-c73ac3069003.png)&nbsp;。
 
 ## 二、证明
+将以&nbsp;![image](https://user-images.githubusercontent.com/23076538/145689112-1a7e3c18-ea5e-4f74-b116-fe8b34933933.png)&nbsp;时进行说明：<br>
+![image](https://user-images.githubusercontent.com/23076538/145689193-2bcdcb6c-798d-498d-992c-5569742d67f2.png)<br>
+假如0位已被哈希占用，此时触发二次探测再散列，先忽略负值的跳位，有
+&nbsp;![image](https://user-images.githubusercontent.com/23076538/145689349-7d6e4c20-f346-48dc-96aa-3fa908bbb1ea.png)&nbsp;，这与二次剩余问题同出一撤，那么什么情况下每次探测的空格不重复呢？<br>
+
+假设存在
+&nbsp;![image](https://user-images.githubusercontent.com/23076538/145689642-ed48b2fa-0366-4910-b293-584d7c16e01e.png)&nbsp;，使探测的空格重复，有
+&nbsp;![image](https://user-images.githubusercontent.com/23076538/145689814-214b302a-3a9c-4b4d-906f-f63f56f8f5d6.png)&nbsp;
+
+
+
+
 
 
 
