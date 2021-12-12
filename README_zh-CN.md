@@ -101,8 +101,50 @@
 &nbsp;![image](https://user-images.githubusercontent.com/23076538/145689349-7d6e4c20-f346-48dc-96aa-3fa908bbb1ea.png)&nbsp;，这与二次剩余问题同出一撤，那么什么情况下每次探测的空格不重复呢？<br>
 
 假设存在
-&nbsp;![image](https://user-images.githubusercontent.com/23076538/145689642-ed48b2fa-0366-4910-b293-584d7c16e01e.png)&nbsp;，使探测的空格重复，有
-&nbsp;![image](https://user-images.githubusercontent.com/23076538/145689814-214b302a-3a9c-4b4d-906f-f63f56f8f5d6.png)&nbsp;
+&nbsp;![image](https://user-images.githubusercontent.com/23076538/145703866-541955dc-3bbd-4f7b-b83b-26336b472df1.png)&nbsp;，使探测的空格重复，有
+&nbsp;![image](https://user-images.githubusercontent.com/23076538/145689814-214b302a-3a9c-4b4d-906f-f63f56f8f5d6.png)&nbsp;，存在以下条件使此等式不成立（反过来说不成立说明不重复）：<br>
+> * 要令任意&nbsp;![image](https://user-images.githubusercontent.com/23076538/145685887-a6469851-0cc8-42ef-b689-fea27d1e45ab.png)&nbsp;和任意&nbsp;![image](https://user-images.githubusercontent.com/23076538/145703894-9e17317a-6373-44dc-a281-fb77ae594efe.png)&nbsp;，使![image](https://user-images.githubusercontent.com/23076538/145703658-ad5ab0d7-41b4-447e-9019-d37b0ff16527.png)&nbsp;不被&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;整除，首先&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;不能是只包含&nbsp;![image](https://user-images.githubusercontent.com/23076538/145685887-a6469851-0cc8-42ef-b689-fea27d1e45ab.png)&nbsp;或&nbsp;![image](https://user-images.githubusercontent.com/23076538/145703894-9e17317a-6373-44dc-a281-fb77ae594efe.png)&nbsp;其中的质因子的合数，由于&nbsp;![image](https://user-images.githubusercontent.com/23076538/145685887-a6469851-0cc8-42ef-b689-fea27d1e45ab.png)&nbsp;和&nbsp;![image](https://user-images.githubusercontent.com/23076538/145703894-9e17317a-6373-44dc-a281-fb77ae594efe.png)&nbsp;是任意的，也即&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;不能是合数，&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;得是质数。
+> * 由于![image](https://user-images.githubusercontent.com/23076538/145703481-331034fd-c97e-49ce-9402-1e7b7f598755.png)&nbsp;和&nbsp;![image](https://user-images.githubusercontent.com/23076538/145703489-4c4ca5d2-f62b-4ec6-a8f8-394a986e2500.png)&nbsp;是任意取值的，且&nbsp;![image](https://user-images.githubusercontent.com/23076538/145705641-337641f0-8ec6-4423-8012-437b4abd766f.png)&nbsp;，即符合条件&nbsp;![image](https://user-images.githubusercontent.com/23076538/145705965-8f1058f0-a8ae-4788-8b10-52f8b1f2ac8c.png)&nbsp;即可，因此有&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706020-99c69c90-766f-4e28-b809-c069fcb5c9f4.png)&nbsp;
+
+因此，当&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;为质数，并且增量序列为：
+&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706160-88fa3043-f621-4997-b4f1-cbfab9312828.png)&nbsp;时，可以保证探测空格不重复，如上例&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706252-a2f0cf31-f185-484a-8dab-026e3d6f085c.png)&nbsp;时，&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706258-4c7d4df7-8808-4ea5-88d8-7076637dcd56.png)&nbsp;对应二次剩余下标&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706267-282198da-e315-403b-a543-1c7aae1fe4e7.png)&nbsp;。<br>
+
+那么剩下的&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706297-2bdd1ac2-e443-494a-875b-5daa78a3a572.png)&nbsp;呢？其实这些就是&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706252-a2f0cf31-f185-484a-8dab-026e3d6f085c.png)&nbsp;时的二次非剩余。<br>
+
+若&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706550-e08f71f2-f4ad-4c19-b3a2-2ebea21c41ac.png)&nbsp;是&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;的二次剩余集合，它们必然是各不相同的，现假设有集合&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706531-838e0891-8661-46ac-828e-4d8641790f58.png)&nbsp;，由于&nbsp;![image](https://user-images.githubusercontent.com/23076538/145686327-b8a7e79e-38aa-45f0-9344-a7d638eacc54.png)&nbsp;之间各不相同，则&nbsp;![image](https://user-images.githubusercontent.com/23076538/145686775-0fd86ceb-d312-4d2d-9419-13019502fa1f.png)&nbsp;必然也各不相同。如此，假若可以令集合&nbsp;![image](https://user-images.githubusercontent.com/23076538/145686327-b8a7e79e-38aa-45f0-9344-a7d638eacc54.png)&nbsp;与集合&nbsp;![image](https://user-images.githubusercontent.com/23076538/145686775-0fd86ceb-d312-4d2d-9419-13019502fa1f.png)&nbsp;没有交集，则它们的并集元素有&nbsp;![image](https://user-images.githubusercontent.com/23076538/145686761-3a674a6d-88be-4874-be90-df075e242475.png)&nbsp;个，也就是等于所有剩余集合。由于集合&nbsp;![image](https://user-images.githubusercontent.com/23076538/145686327-b8a7e79e-38aa-45f0-9344-a7d638eacc54.png)&nbsp;是二次剩余集合，则需找到一个&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;，令集合&nbsp;![image](https://user-images.githubusercontent.com/23076538/145686775-0fd86ceb-d312-4d2d-9419-13019502fa1f.png)&nbsp;等于二次非剩余集合即可。<br>
+
+我们根据欧拉判别法则进行命题转换：当&nbsp;![image](https://user-images.githubusercontent.com/23076538/145687102-05c2b191-8369-4622-a79f-4edc414abc0e.png)&nbsp;时，令&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706885-ed8aaeec-2386-4e8b-b678-9a377adb4b1b.png)&nbsp;即可。<br>
+
+对&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706885-ed8aaeec-2386-4e8b-b678-9a377adb4b1b.png)&nbsp;进行二项展开有：<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![image](https://user-images.githubusercontent.com/23076538/145707204-37c8ee09-2bb8-4200-bbc0-61d15104fbc6.png)<br>
+![image](https://user-images.githubusercontent.com/23076538/145707211-eecfea55-6479-46bf-a2d0-b8336fc7a4f9.png)<br>
+![image](https://user-images.githubusercontent.com/23076538/145707235-9f7e48f6-ff23-4691-99d1-dd257964c4e2.png)<br>
+
+从而得到&nbsp;![image](https://user-images.githubusercontent.com/23076538/145707350-8bc8da81-edd5-4803-bc44-33f351363894.png)&nbsp;，根据费马小定律，可得&nbsp;![image](https://user-images.githubusercontent.com/23076538/145707366-8ea6b86b-2adf-469f-aee6-8c63b580c3fc.png)&nbsp;，要使之恒成立，&nbsp;![image](https://user-images.githubusercontent.com/23076538/145707417-b50009c7-53f7-44ca-8465-3aa02b2e9165.png)&nbsp;必须为奇数，即&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;为&nbsp;![image](https://user-images.githubusercontent.com/23076538/145707455-133f4b8e-3827-4f7a-81cf-077484c799d2.png)&nbsp;形式时，有&nbsp;![image](https://user-images.githubusercontent.com/23076538/145707496-013fb990-bfcb-43a7-9e34-30b80cc19a28.png)&nbsp;必为奇数。<br>
+
+因此，当&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;为&nbsp;![image](https://user-images.githubusercontent.com/23076538/145707455-133f4b8e-3827-4f7a-81cf-077484c799d2.png)&nbsp;形式的质数时，集合&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706531-838e0891-8661-46ac-828e-4d8641790f58.png)&nbsp;就是&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;的非剩余集合，也就是说剩余集合与非剩余集合是关于模&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;对称的。现想象将哈希列表首尾相连形成一个环，从起始点0向逆时针方向移位代表的是正数增位序列&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706160-88fa3043-f621-4997-b4f1-cbfab9312828.png)&nbsp;移位，由于对称，剩下的二次非剩余下标位置，必是顺时针方向的相反意义的二次剩余移位，由于二次剩余和非二次剩余之和为&nbsp![image](https://user-images.githubusercontent.com/23076538/145710232-d9af3d59-3581-43e1-99be-86b35927d409.png)&nbsp，加上0位的一格即为哈希表总长度，因此，最终增量序列&nbsp;![image](https://user-images.githubusercontent.com/23076538/145710158-87c74a7a-fa81-41db-95e8-1d3e949b9f4b.png)&nbsp;可以扫描到全表。
+
+## 三、总结
+
+当哈希表长为形如&nbsp;![image](https://user-images.githubusercontent.com/23076538/145710286-96795d2c-a3fb-4831-8cd5-eef08a744047.png)&nbsp;的质数时，移位增量序列&nbsp;![image](https://user-images.githubusercontent.com/23076538/145710158-87c74a7a-fa81-41db-95e8-1d3e949b9f4b.png)&nbsp;可以扫描到全表。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
