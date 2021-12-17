@@ -1,7 +1,7 @@
 # 关于二次探测如何保证探测到表所有项的证明
 > 共有两种形式的二次探测，分别为<br>
 > ![image](https://user-images.githubusercontent.com/23076538/145684221-20ae5c73-2bd9-4fab-95b5-0e0bdadd1870.png)<br>
-> ![image](https://user-images.githubusercontent.com/23076538/145683973-2ae36bfc-41cf-4806-9efe-3d5476ebca4c.png)&emsp;*(此证明仅讨论此形式)*
+> ![image](https://user-images.githubusercontent.com/23076538/146514368-863873da-8411-4fbb-b179-861a2f71649e.png)&emsp;*(此证明仅讨论此形式)*
 
 ## 一、预备知识
 ### 二次剩余
