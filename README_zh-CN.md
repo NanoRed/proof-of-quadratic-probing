@@ -1,7 +1,7 @@
 # 关于二次探测如何保证探测到表所有项的证明
 > 共有两种形式的二次探测，分别为<br>
 > ![image](https://user-images.githubusercontent.com/23076538/145684221-20ae5c73-2bd9-4fab-95b5-0e0bdadd1870.png)<br>
-> ![image](https://user-images.githubusercontent.com/23076538/145683973-2ae36bfc-41cf-4806-9efe-3d5476ebca4c.png)&emsp;*(此证明仅讨论此形式)*
+> ![image](https://user-images.githubusercontent.com/23076538/146514368-863873da-8411-4fbb-b179-861a2f71649e.png)&emsp;*(此证明仅讨论此形式)*
 
 ## 一、预备知识
 ### 二次剩余
@@ -107,7 +107,7 @@
 > * 由于![image](https://user-images.githubusercontent.com/23076538/145703481-331034fd-c97e-49ce-9402-1e7b7f598755.png)&nbsp;和&nbsp;![image](https://user-images.githubusercontent.com/23076538/145703489-4c4ca5d2-f62b-4ec6-a8f8-394a986e2500.png)&nbsp;是任意取值的，且&nbsp;![image](https://user-images.githubusercontent.com/23076538/145705641-337641f0-8ec6-4423-8012-437b4abd766f.png)&nbsp;，即符合条件&nbsp;![image](https://user-images.githubusercontent.com/23076538/145705965-8f1058f0-a8ae-4788-8b10-52f8b1f2ac8c.png)&nbsp;即可，因此有&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706020-99c69c90-766f-4e28-b809-c069fcb5c9f4.png)&nbsp;
 
 因此，当&nbsp;![image](https://user-images.githubusercontent.com/23076538/145684428-0bb7a272-cc1c-405a-9cd4-e47f2a4d0017.png)&nbsp;为质数，并且增量序列为：
-&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706160-88fa3043-f621-4997-b4f1-cbfab9312828.png)&nbsp;时，可以保证探测空格不重复，如上例&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706252-a2f0cf31-f185-484a-8dab-026e3d6f085c.png)&nbsp;时，&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706258-4c7d4df7-8808-4ea5-88d8-7076637dcd56.png)&nbsp;对应二次剩余下标&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706267-282198da-e315-403b-a543-1c7aae1fe4e7.png)&nbsp;。<br>
+&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706160-88fa3043-f621-4997-b4f1-cbfab9312828.png)&nbsp;时，可以保证探测空格不重复，如上例&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706252-a2f0cf31-f185-484a-8dab-026e3d6f085c.png)&nbsp;时，&nbsp;![image](https://user-images.githubusercontent.com/23076538/146518752-dc72dec6-d749-4340-bcd7-e0823f1c4c33.png)&nbsp;对应二次剩余下标&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706267-282198da-e315-403b-a543-1c7aae1fe4e7.png)&nbsp;。<br>
 
 那么剩下的&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706297-2bdd1ac2-e443-494a-875b-5daa78a3a572.png)&nbsp;呢？其实这些就是&nbsp;![image](https://user-images.githubusercontent.com/23076538/145706252-a2f0cf31-f185-484a-8dab-026e3d6f085c.png)&nbsp;时的二次非剩余。<br>
 
@@ -127,37 +127,3 @@
 ## 三、总结
 
 当哈希表长为形如&nbsp;![image](https://user-images.githubusercontent.com/23076538/145710286-96795d2c-a3fb-4831-8cd5-eef08a744047.png)&nbsp;的质数时，移位增量序列&nbsp;![image](https://user-images.githubusercontent.com/23076538/145710158-87c74a7a-fa81-41db-95e8-1d3e949b9f4b.png)&nbsp;可以扫描到全表。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
